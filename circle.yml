@@ -12,7 +12,6 @@ deployment:
       - git config --global user.name "${GIT_USER_NAME}"
       - git checkout gh-pages
       - ls | grep -v index.html | xargs rm -rf
-      - git add index.html
+      - git add .
       - git commit -m "deploy [ci skip]"
-      - git pull git@github.com:nakahashi/study-api-blueprint.git gh-pages
       - git push git@github.com:nakahashi/study-api-blueprint.git gh-pages -f
