@@ -4,7 +4,8 @@
   "scripts": {
     "build": "aglio --theme-variables slate -i src/index.md -o ./index.html",
     "preview": "aglio --theme-variables slate -i src/index.md --server",
-    "mock": "drakov -f './src/**/*.md' -p 8081 --watch "
+    "mock": "drakov -f './src/**/*.md' -p 8081 --watch ",
+    "test": "echo success!"
   },
   "repository": {
     "type": "git",
