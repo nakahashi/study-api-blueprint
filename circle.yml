@@ -1,0 +1,12 @@
+machine:
+  timezone: Asia/Tokyo
+  node:
+    version: 7.1.0
+
+deployment:
+  api-doc:
+    branch: api-doc
+    commands:
+      - npm run build
+      - chmod 755 deploy.sh
+      - ./deploy.sh
