@@ -14,4 +14,4 @@ deployment:
       - ls | grep -v index.html | xargs rm -rf
       - git add index.html
       - git commit -m "deploy [ci skip]"
-      - git push git@github.com:nakahashi/study-api-blueprint.git gh-pages
+      - git push git@github.com:nakahashi/study-api-blueprint.git gh-pages -f
