@@ -12,9 +12,7 @@
     "url": "git+https://github.com/nakahashi/study-api-blueprint.git"
   },
   "dependencies": {
-    "aglio": "^2.3.0"
-  },
-  "devDependencies": {
+    "aglio": "^2.3.0",
     "drakov": "^1.0.4"
   }
 }
