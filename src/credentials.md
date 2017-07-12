@@ -1,6 +1,6 @@
 # Group Credentials
 
-## Login [/api/v1/credentials/login.json]
+## Login [/api/v1/credentials/information/login.json]
 
 ### ログイン [GET]
 ログインするです
@@ -15,10 +15,10 @@
       }
     }
 
-## Login [/api/v1/credentials/login_fanclub.json]
+## Login [/api/v1/credentials/information/login_ec.json]
 
-### ファンクラブにログイン [GET]
-ファンクラブにログインする
+### ECにログイン [GET]
+ECにログインする
 
 + Response 200 (application/json)
   + Body
@@ -27,10 +27,8 @@
         "uid": 1234,
         "email": "test001@example.com",
         "name": "山田太郎",
-        "nickname": "ヤマタロ",
         "expired_at": "2099-01-01T00:00:00.000+00:00",
         "member_no": "100000012",
-        "role": "user",
         "provider": "uuum id"
       }
     }

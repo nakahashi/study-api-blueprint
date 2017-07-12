@@ -1,6 +1,6 @@
 # Group Users
 
-## ユーザー情報 [/api/v1/users/fanclub/show.json]
+## ユーザー情報 [/api/v1/users/information/show.json]
 
 ### 取得 [GET]
 ユーザー情報を取得する
@@ -15,14 +15,12 @@
         "nickname": "ヤマタロ",
         "expired_at": "2099-01-01T00:00:00.000+00:00",
         "status": 0,
-        "period": 0,
         "member_no": "100000012",
-        "role": "user",
         "provider": "uuum id"
       }
     }
 
-## ユーザー情報更新 [/api/v1/users/fanclub/update.json]
+## ユーザー情報更新 [/api/v1/users/information/update.json]
 
 ### 更新 [POST]
 ユーザー情報を更新する
@@ -40,9 +38,7 @@
         "nickname": "ヤマタロ",
         "expired_at": "2099-01-01T00:00:00.000+00:00",
         "status": 0,
-        "period": 0,
         "member_no": "100000012",
-        "role": "user",
         "provider": "uuum id"
       }
     }
